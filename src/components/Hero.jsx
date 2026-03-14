@@ -116,7 +116,7 @@ const Hero = () => {
               <button
                 onClick={() => {
                   const link = document.createElement('a');
-                  link.href = '/RESUME VIVI.pdf';
+                  link.href = './RESUME VIVI.pdf';
                   link.download = 'OM_VIVEK_MALLIKANTI_Resume.pdf';
                   link.click();
                 }}
@@ -136,9 +136,12 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-2xl animate-float">
                 <img
-                  src="/image.jpeg"
+                  src="./image.jpeg"
                   alt="OM VIVEK MALLIKANTI"
                   className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.target.src = '/image.jpeg';
+                  }}
                 />
               </div>
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary-400/20 to-secondary-400/20 pointer-events-none"></div>
