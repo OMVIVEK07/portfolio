@@ -89,7 +89,7 @@ const Hero = () => {
               className="flex justify-center lg:justify-start space-x-4"
             >
               <a
-                href="https://github.com"
+                href="https://github.com/OMVIVEK07"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-primary-100 dark:hover:bg-primary-900 transition-colors"
@@ -98,7 +98,7 @@ const Hero = () => {
                 <FaGithub className="text-xl" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/om-vivek-mallikanti-5417902b5/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-primary-100 dark:hover:bg-primary-900 transition-colors"
